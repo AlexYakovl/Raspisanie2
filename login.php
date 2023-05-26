@@ -75,7 +75,7 @@ unset($_SESSION['message']);
     </form>
 
     <?php if (!isset($_SESSION['username'])): ?>
-<!--        <button> <a href="reg.php">Зарегистрироваться</a></button>-->
+       <button> <a href="reg.php">Зарегистрироваться</a></button>
     <?php else: ?>
         <button ><a href="auth.php?logout=1">Выйти из учетной записи</a></button>
     <?php endif; ?>
